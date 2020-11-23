@@ -44,7 +44,7 @@ RestartSec=5
 WantedBy=multi-user.target
 ```
 
-Save and exit - in Nano, you can do this by pressing CTRL-X, then Y for yes to save, then Enter to write the file.
+Save and exit - in Nano, you can do this by pressing `CTRL-X`, then `Y`, then `Enter` to save & write the file.
 
 Enable the jellyrig systemd and reload systemctl daemon:
 
