@@ -26,7 +26,7 @@ Create the systemd file using your editor of choice. With Nano, which comes with
 
 `sudo nano /etc/systemd/system/jellyrig.service`
 
-You'll have an empty file. Enter the following in the file:
+You'll have an empty file. Enter the following in the file, substituting the paths for your own as needed:
 
 ```[Unit]
 Description=jellyrig
