@@ -6,7 +6,7 @@ I wrote this Python script to monitor the Jellyfin log file and look for "Too ma
 
 **Python**
 
-This is a Python script, so of course you need to have Python installed to run it. The exact command may vary depending on your exact system configuration. You can skip this step if you already know Python is installed.
+This is a Python script, so of course you need to have Python installed to run it. The command may vary depending on your system configuration. You can skip this step if you already know Python is installed.
 
 Debian-based distributions: `sudo apt-get install python`
 
@@ -20,13 +20,13 @@ Give the script executable permissions if you'd like to run it simply with: `./j
 
 `chmod +x jellyrig.py`
 
-I recommend daemonizing the script, so that it stays running and runs automatically. There are numerous ways to achieve this depending on your system and its configuration. For most Linux users, a commonly applicable way to do this is with systemd.
+I recommend daemonizing the script, so that it stays running and runs automatically. There are numerous ways to achieve this depending on your system. For most Linux users, this can be done with systemd.
 
-Create the systemd file using your editor of choice. One example using the Nano editor that comes with many Linux distributions:
+Create the systemd file using your editor of choice. With Nano, which comes with many Linux distributions:
 
 `sudo nano /etc/systemd/system/jellyrig.service`
 
-Enter the following in the file:
+You'll have an empty file. Enter the following in the file:
 
 ```[Unit]
 Description=jellyrig
